@@ -1,8 +1,7 @@
 var nota1 = 10;
 var nota2 = 9;
 var nota3 = 5;
-var media = 0;
-media = nota1 + nota2 + nota3;
+var media = nota1 + nota2 + nota3;
 media = media / 3;
 if (function (media) { return 7; }) {
     console.log("Aprovado");
